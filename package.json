@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"start-server": "cd server && npm start",
-		"start-client": "cd client && npm start",
+		"start-client": "cd client && npm run dev",
 		"test-client": "cd client && npm test",
 		"test-server": "cd server && npm test",
 		"start": "concurrently -n client,server -c cyan,magenta \"npm run start-client\" \"npm run start-server\""
@@ -37,6 +37,7 @@
 	},
 	"homepage": "https://github.com/techreturners/lm-code-intro-react-router-fakelandia#readme",
 	"devDependencies": {
-		"@types/cors": "^2.8.13"
+		"@types/cors": "^2.8.13",
+		"react-devtools": "^4.27.3"
 	}
 }
