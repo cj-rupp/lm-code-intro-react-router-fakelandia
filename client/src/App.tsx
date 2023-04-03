@@ -9,17 +9,20 @@ import Confession from './components/Confession'
 import MainLayout from './components/MainLayout'
 
 const App = () =>
-<>
-  <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<MainLayout />}>
-        <Route index element={<Home />}/>
-        <Route path='confession' element={<Confession />}/>
-        <Route path='misdemeanour' element={<Misdemeanour />}/>
-      </Route>
-    </Routes>
-  </BrowserRouter>
-</>
+  <>
+    <body className='body--flex__column'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path='confession' element={<Confession />} />
+            <Route path='misdemeanour' element={<Misdemeanour />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </body>
+  </>
+
 /*
 function App() {
   const [count, setCount] = useState(0)
