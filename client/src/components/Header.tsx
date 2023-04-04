@@ -1,5 +1,5 @@
 import Nav from './Nav';
-import './App.css'
+import '../App.css'
 
 const Header: React.FC = () =>
 <>

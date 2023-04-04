@@ -1,7 +1,4 @@
 import { NavLink, Outlet } from "react-router-dom";
-import reactLogo from '../assets/react.svg'
-import viteLogo from '../../public/vite.svg'
-
 const Nav = () =>
     <>
         <nav>

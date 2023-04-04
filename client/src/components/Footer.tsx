@@ -1,4 +1,4 @@
-import './footer.scss';
+import '../App.css';
 
 const Footer: React.FC = () =>
 <>
